@@ -1,65 +1,61 @@
 # 📊 Attendance Management System
 
-A professional, robust, and user-friendly web-based **Attendance Management System** designed to streamline tracking and reporting for educational institutions. This project is built using **PHP (procedural/OO)** and **MySQL**, focusing on ease of use and efficient data management.
+A professional and efficient web-based **Attendance Management System** built to simplify attendance tracking for educational institutions. This project features a clean PHP-based backend and a responsive frontend, providing seamless interaction for Admins, Teachers, and Students.
 
 ---
 
 ## 🚀 Overview
 
-Managing manual attendance can be tedious and error-prone. This system provides a digital solution with distinct portals for Admins, Teachers, and Students, ensuring transparency and real-time access to attendance data.
+This system digitizes the manual attendance process, reducing errors and providing instant access to attendance data. It is structured with three distinct portals, each tailored to specific user needs.
 
-## ✨ Key Features
+## ✨ Core Features (Verified)
 
-### 🔐 Multi-Role Access Control
-- **Admin Dashboard**: Full control over the system. Manage student/teacher profiles, departments, subjects, and view comprehensive attendance reports.
-- **Teacher Portal**: Interface to mark daily attendance for assigned subjects and classes. Generate subject-wise reports.
-- **Student Portal**: Students can securely log in to monitor their attendance percentage and history.
+### � Multi-User Portals
+- **Admin Dashboard**: Centralized control to manage students, teachers, classes, and subjects. Includes live monitoring of system usage.
+- **Teacher Portal**: Simplified interface for teachers to mark daily attendance for their respective classes and subjects.
+- **Student Portal**: Secure login for students to track their overall attendance percentage and subject-specific performance.
 
-### 📈 Functional Highlights
-- **Automated Calculations**: Real-time calculation of attendance percentages.
-- **Subject-Wise Tracking**: Record attendance specifically for different modules/subjects.
-- **Data Export/Reporting**: View and analyze attendance trends across different semesters and years.
-- **Responsive Design**: Clean and functional UI for both desktop and mobile views.
+### 📈 System Capabilities
+- **Real-time Stats**: View daily attendance summaries (Present/Absent/Late counts) instantly.
+- **Student Analytics**: Identify students with low attendance (below 75%) automatically.
+- **Class Management**: Manage student enrollment and subject assignments across different semesters.
+- **Live Monitoring**: Track which teachers have marked attendance for the current day.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Backend**: PHP (7.x/8.x)
+- **Backend**: PHP (MySQLi)
 - **Database**: MySQL
-- **Frontend**: HTML5, CSS3, JavaScript
-- **Server**: Apache (XAMPP/WAMP/LAMP compliant)
+- **Frontend**: HTML5, CSS3 (Custom styles), JavaScript, FontAwesome
+- **Environment**: XAMPP / WAMP / LAMP
 
 ---
 
 ## 🏁 Getting Started
 
 ### Prerequisites
-- **Local Server**: [XAMPP](https://www.apachefriends.org/index.html) or [WAMP](https://www.wampserver.com/en/)
-- **Browser**: Chrome, Firefox, or Safari
+- **Local Server**: XAMPP (recommended)
+- **Database**: phpMyAdmin
 
 ### Installation & Setup
-1.  **Clone the Repo**:
-    ```bash
-    git clone https://github.com/yourusername/attendance-management-system.git
-    ```
-2.  **Database Configuration**:
-    - Launch **phpMyAdmin**.
-    - Create a database named `attendance_db`.
-    - Import the `attendance_db.sql` file provided in the project root.
-3.  **App Configuration**:
-    - Navigate to `attendance_system/includes/database.php`.
-    - Update `$user` and `$password` if your local MySQL setup differs from the default `root`/`password_empty`.
-4.  **Launch**:
-    - Move folder to `htdocs` (for XAMPP).
-    - Visit `http://localhost/attendance_system`.
+1.  **Extract/Clone**:
+    - Place the `attendance_system` folder in your server's root directory (e.g., `C:/xampp/htdocs/`).
+2.  **Database Setup**:
+    - Open **phpMyAdmin** and create a database named `attendance_db`.
+    - Import the `attendance_db.sql` file located in the root folder.
+3.  **Connection Settings**:
+    - Open `attendance_system/includes/database.php`.
+    - Verify your MySQL credentials (default is `root` with no password).
+4.  **Run**:
+    - Project can be accessed at `http://localhost/attendance_system`.
 
 ---
 
 ## 🔑 Access Credentials
 
-> [!IMPORTANT]
-> The following credentials are provided as **defaults** for demo purposes. For security, it is highly recommended to change these via the database or within the system settings after the initial login.
+> [!NOTE]  
+> The credentials below are **default demo accounts**. These can be modified or updated directly in the database or via the admin management panels.
 
 | Role | Username | Password |
 | :--- | :--- | :--- |
@@ -75,9 +71,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
 
-## 👨‍💻 Contact
+## 👨‍💻 Developed By
 
-**Mahir** - [Your LinkedIn](https://linkedin.com/in/yourprofile) - [Your Email](mailto:youremail@example.com)
+**Mahir** - [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
 
-*Project Link: [https://github.com/yourusername/attendance-management-system](https://github.com/yourusername/attendance-management-system)*
 
