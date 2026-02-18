@@ -8,9 +8,26 @@ A professional and efficient web-based **Attendance Management System** built to
 
 This system digitizes the manual attendance process, reducing errors and providing instant access to attendance data. It is structured with three distinct portals, each tailored to specific user needs.
 
+## 📸 Screenshots
+
+### Home Page
+![Home Page](./Screenshot/1_homePage.png)
+
+### Dashboards & Portals
+| Admin Dashboard | Student Dashboard | Teacher Dashboard |
+|---|---|---|
+| ![Admin](./Screenshot/8_adminDashboard.png) | ![Student](./Screenshot/5_studentDashboard.png) | ![Teacher](./Screenshot/6_teacherDashboard.png) |
+
+### Key Features
+| Mark Attendance | View Reports | Manage Students |
+|---|---|---|
+| ![Mark](./Screenshot/7_markAttendace.png) | ![Report](./Screenshot/11_viewReport.png) | ![Manage](./Screenshot/9_studentManage.png) |
+
+---
+
 ## ✨ Core Features (Verified)
 
-### � Multi-User Portals
+### 👤 Multi-User Portals
 - **Admin Dashboard**: Centralized control to manage students, teachers, classes, and subjects. Includes live monitoring of system usage.
 - **Teacher Portal**: Simplified interface for teachers to mark daily attendance for their respective classes and subjects.
 - **Student Portal**: Secure login for students to track their overall attendance percentage and subject-specific performance.
@@ -57,13 +74,11 @@ This system digitizes the manual attendance process, reducing errors and providi
 ## 🔑 Access Credentials
 
 > [!NOTE]  
-> The credentials below are **default demo accounts**. These can be modified or updated directly in the database or via the admin management panels.
+> The credentials below are for the **Admin account**. Other roles (Teacher/Student) can be managed and created via the Admin panel.
 
 | Role | Username | Password |
 | :--- | :--- | :--- |
 | **Admin** | `mahir` | `maru143` |
-| **Teacher** | `ramnik` | `teacher123` |
-| **Student** | `bca1_001` | `student` |
 
 ---
 
@@ -75,9 +90,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 👨‍💻 Developed By
 
-**Mahir Pathan** - [GitHub](https://github.com/mahirxpathan) | [LinkedIn](https://linkedin.com/in/yourprofile)
+**Mahir Pathan** - [GitHub](https://github.com/mahirxpathan)
 
 *Project Link: [https://github.com/mahirxpathan/Attendance-Management-System](https://github.com/mahirxpathan/Attendance-Management-System)*
+
 
 
 
