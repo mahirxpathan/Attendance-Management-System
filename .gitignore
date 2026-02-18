@@ -1,0 +1,19 @@
+# Backups and Compressed files
+*.zip
+*.rar
+*.7z
+
+# Environment variables
+.env
+.env.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temp files
+temp/
+tmp/
