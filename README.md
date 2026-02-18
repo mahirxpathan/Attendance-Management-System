@@ -27,7 +27,7 @@ This system digitizes the manual attendance process, reducing errors and providi
 
 - **Backend**: PHP (MySQLi)
 - **Database**: MySQL
-- **Frontend**: HTML5, CSS3 (Custom styles), JavaScript, FontAwesome
+- **Frontend**: HTML5, CSS3, JavaScript, **Bootstrap 5**, FontAwesome
 - **Environment**: XAMPP / WAMP / LAMP
 
 ---
@@ -39,8 +39,10 @@ This system digitizes the manual attendance process, reducing errors and providi
 - **Database**: phpMyAdmin
 
 ### Installation & Setup
-1.  **Extract/Clone**:
-    - Place the `attendance_system` folder in your server's root directory (e.g., `C:/xampp/htdocs/`).
+1.  **Clone the Repo**:
+    ```bash
+    git clone https://github.com/mahirxpathan/Attendance-Management-System.git
+    ```
 2.  **Database Setup**:
     - Open **phpMyAdmin** and create a database named `attendance_db`.
     - Import the `attendance_db.sql` file located in the root folder.
@@ -73,6 +75,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 👨‍💻 Developed By
 
-**Mahir** - [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
+**Mahir Pathan** - [GitHub](https://github.com/mahirxpathan) | [LinkedIn](https://linkedin.com/in/yourprofile)
+
+*Project Link: [https://github.com/mahirxpathan/Attendance-Management-System](https://github.com/mahirxpathan/Attendance-Management-System)*
+
 
 
