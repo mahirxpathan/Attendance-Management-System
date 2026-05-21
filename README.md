@@ -90,10 +90,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 👨‍💻 Developed By
 
-**Mahir Pathan** - [GitHub](https://github.com/mahirxpathan) | [Telegram](https://t.me/mahirXkhan) (@mahirXkhan)
+**Mahiri** - [GitHub](https://github.com/mahirxpathan)
 
 *Project Link: [https://github.com/mahirxpathan/Attendance-Management-System](https://github.com/mahirxpathan/Attendance-Management-System)*
 
-
+**Developed with ❤️ by Mahiri.**
 
 
